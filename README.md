@@ -1,4 +1,4 @@
-# diabetes_prediction_with_-fastAPI
+# diabetes_prediction_with_fastAPI
 This project is a machine learning web application designed to predict whether a person has diabetes based on specific medical inputs. The application is built using **FastAPI**, a modern web framework for building APIs with Python, and utilizes a pre-trained machine learning model based on the **RandomForestClassifier** algorithm. The model takes into account various medical attributes such as glucose levels, blood pressure, BMI, and other factors to provide a prediction.
 
 Users can send their medical data through a REST API endpoint, and the application will return a prediction on whether they are likely to have diabetes. This project demonstrates the integration of machine learning and API development, allowing for a user-friendly and efficient way to access predictions. The model was trained using a publicly available diabetes dataset, and the API is designed to be lightweight, fast, and easy to deploy.
